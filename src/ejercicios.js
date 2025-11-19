@@ -87,8 +87,6 @@ function imagenAMatriz(rutaImagen) {
   // 6) Retornar la matriz de píxeles
   return matriz;
 }
-
-
 /**
  * Ejercicio 1.2: Convertir matriz de píxeles a imagen PNG (5 puntos)
  * 
