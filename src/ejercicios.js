@@ -31,6 +31,7 @@ const {
 } = require('./matriz');
 
 
+
 // ============================================
 // SECCIÓN 1: FUNDAMENTOS (20 puntos)
 // Conversión entre imágenes y matrices
