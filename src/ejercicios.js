@@ -5,6 +5,7 @@
 // Fecha: 18 DE NOVIEMBRE DEL 2025
 // Grupo: 1 C 
 
+
 const { PNG } = require('pngjs');
 const fs = require('fs');
 const path = require('path');
