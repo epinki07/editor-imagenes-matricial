@@ -101,6 +101,7 @@ function imagenAMatriz(rutaImagen) {
  * - Usa PNG.sync.write(png) para generar el buffer
  * - Usa fs.writeFileSync() para guardar el archivo
  * 
+ 
  * @example
  * const matriz = imagenAMatriz('entrada.png');
  * matrizAImagen(matriz, 'imagenes/salida/copia.png');
