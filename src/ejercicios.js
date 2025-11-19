@@ -76,7 +76,7 @@ function imagenAMatriz(rutaImagen) {
         b: png.data[idx + 2],   // Valor azul
         a: png.data[idx + 3]    // Valor alfa
       };
-
+ 
       // Agregar el pixel a la fila
       fila.push(pixel);
     }
