@@ -34,7 +34,6 @@ const {
 // SECCIÓN 1: FUNDAMENTOS (20 puntos)
 // Conversión entre imágenes y matrices
 // ============================================
-
 /**
  * Ejercicio 1.1: Cargar imagen PNG y convertir a matriz de píxeles (5 puntos)
  * 
