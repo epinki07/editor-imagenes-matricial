@@ -1,4 +1,4 @@
-// ============================================
+// ===========================================
 // EDITOR DE IMÁGENES CON ÁLGEBRA MATRICIAL
 // ============================================
 // Nombre del estudiante: DIEGO RAMIREZ MAGAÑA
