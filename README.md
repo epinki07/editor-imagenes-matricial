@@ -1,107 +1,53 @@
-# Editor de Imágenes con Álgebra Matricial
+# 🖼️ Editor de Imágenes con Álgebra Matricial
 
-**Fundamentos de Álgebra - Unidad III: Álgebra Lineal Aplicada**  
-Tecnológico de Software
+Editor de imágenes educativo basado en álgebra matricial. Aplica transformaciones de matrices sobre píxeles para manipulación de imágenes.
 
----
+## 📋 ¿Qué hace?
 
-## Objetivo
+- **Transformaciones**: Rotación, escala, traslación
+- **Filtros matriciales**: Blur, sharpen, edge detection
+- **Interfaz web**: UI interactiva para aplicar transformaciones
+- **Vista previa en tiempo real**: Ver cambios instantáneamente
 
-Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
+## 🛠️ Tech Stack
 
----
+| Frontend | Transformaciones |
+|----------|------------------|
+| HTML5 Canvas | Matrices 3x3 |
+| JavaScript | Álgebra Lineal |
+| | Pixel manipulation |
 
-## Instrucciones
+## 🚀 Cómo usarlo
 
-### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU-USUARIO/editor-imagenes-matricial.git
+# Clonar
+git clone https://github.com/epinki07/editor-imagenes-matricial.git
 cd editor-imagenes-matricial
-npm install
+
+# Abrir en navegador
+open index.html
 ```
 
-### 2. Completar los ejercicios
-- Abre el archivo `src/ejercicios.js`
-- Completa cada función donde dice `// TODO:`
-- **NO modifiques** los archivos `utilidades.js`, `matriz.js` ni los tests
+## 📖 Transformaciones incluidas
 
-### 3. Probar tu código
-```bash
-npm test
-```
+| Transformación | Matriz |
+|----------------|--------|
+| Identidad | [[1,0,0], [0,1,0], [0,0,1]] |
+| Escala | [[sx,0,0], [0,sy,0], [0,0,1]] |
+| Rotación | [[cos,-sin,0], [sin,cos,0], [0,0,1]] |
+| Shear | [[1,shx,0], [shy,1,0], [0,0,1]] |
 
-### 4. Guardar tus cambios
-```bash
-git add src/ejercicios.js
-git commit -m "Completar ejercicios de la sección X"
-git push origin main
-```
+## 💡 Qué aprendí
 
-### 5. Ver tu calificación
-- Ve a tu repositorio en GitHub
-- Click en la pestaña **Actions**
-- Tu calificación aparecerá en los resultados
+- Álgebra lineal aplicada a gráficos
+- Manipulación de píxeles en Canvas
+- Transformaciones geométricas
+- Rendimiento en JavaScript
 
----
+## 🤝 Autor
 
-## Sistema de Calificación
+**Diego Ramirez Magaña**
 
-| Sección | Puntos |
-|---------|--------|
-| 1. Commits bien documentados | 20 pts |
-| 2. README actualizado y personalizado | 25 pts |
-| 3. Editor funcional | 30 pts |
-| 4. Funciones bien documentadas | 25 pts |
-| **TOTAL** | **100 pts** |
-
----
-
-## Estructura del Proyecto
-
-```
-src/
-├── ejercicios.js          ← COMPLETA ESTE ARCHIVO
-├── ejercicios.test.js     ← NO MODIFICAR
-├── utilidades.js          ← NO MODIFICAR (funciones auxiliares)
-└── matriz.js              ← NO MODIFICAR (operaciones matriciales)
-
-imagenes/
-├── entrada/               ← Imágenes de prueba
-└── salida/                ← Resultados generados
-
-guias/
-├── GUIA_ESTUDIANTES.md    ← Ayuda detallada
-├── GUIA_INSTRUCTOR.md     ← Soluciones (solo instructor)
-└── CONCEPTOS_ALGEBRA.md   ← Teoría de álgebra lineal
-```
-
----
-
-## Recursos
-
-- **Guía Estudiantes:** `guias/GUIA_ESTUDIANTES.md`
-- **Conceptos Álgebra:** `guias/CONCEPTOS_ALGEBRA.md`
-- **Documentación pngjs:** [npmjs.com/package/pngjs](https://www.npmjs.com/package/pngjs)
-
----
-
-## Reglas Importantes
-
-1. ✅ Solo modifica `src/ejercicios.js`
-2. ❌ No modifiques los archivos de tests
-3. ❌ No modifiques `utilidades.js` ni `matriz.js`
-4. ✅ Puedes hacer múltiples commits
-5. ✅ Todos los tests deben pasar para obtener puntos
-
----
-
-## ¿Necesitas Ayuda?
-
-1. Lee `guias/GUIA_ESTUDIANTES.md`
-2. Consulta `guias/CONCEPTOS_ALGEBRA.md`
-3. Pregunta a tus compañeros
-4. Contacta al profesor: jorge.pedroza@tecdesoftware.edu.mx
-
----
-
-**¡Éxito en tu proyecto!**
+- 📧 dramirezmagana@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/)
+- 🐙 [GitHub](https://github.com/epinki07)
