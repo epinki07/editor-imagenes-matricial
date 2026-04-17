@@ -1,53 +1,23 @@
-# 🖼️ Editor de Imágenes con Álgebra Matricial
+# Editor de Imagenes con Algebra Matricial
 
-Editor de imágenes educativo basado en álgebra matricial. Aplica transformaciones de matrices sobre píxeles para manipulación de imágenes.
+Editor de imagenes educativo que aplica transformaciones de matrices sobre pixeles directamente desde el navegador. Desarrollado como proyecto de matematicas aplicadas.
 
-## 📋 ¿Qué hace?
+## Que hace
 
-- **Transformaciones**: Rotación, escala, traslación
-- **Filtros matriciales**: Blur, sharpen, edge detection
-- **Interfaz web**: UI interactiva para aplicar transformaciones
-- **Vista previa en tiempo real**: Ver cambios instantáneamente
+Permite aplicar transformaciones geometricas sobre imagenes: rotacion, escala, traslacion y shear. Cada transformacion se implementa con su matriz 3x3 correspondiente y se ejecuta pixel a pixel usando el canvas de HTML5.
 
-## 🛠️ Tech Stack
-
-| Frontend | Transformaciones |
-|----------|------------------|
-| HTML5 Canvas | Matrices 3x3 |
-| JavaScript | Álgebra Lineal |
-| | Pixel manipulation |
-
-## 🚀 Cómo usarlo
+## Como usarlo
 
 ```bash
-# Clonar
 git clone https://github.com/epinki07/editor-imagenes-matricial.git
 cd editor-imagenes-matricial
-
-# Abrir en navegador
 open index.html
 ```
 
-## 📖 Transformaciones incluidas
+## Tech Stack
 
-| Transformación | Matriz |
-|----------------|--------|
-| Identidad | [[1,0,0], [0,1,0], [0,0,1]] |
-| Escala | [[sx,0,0], [0,sy,0], [0,0,1]] |
-| Rotación | [[cos,-sin,0], [sin,cos,0], [0,0,1]] |
-| Shear | [[1,shx,0], [shy,1,0], [0,0,1]] |
+HTML5 Canvas y JavaScript. Sin dependencias externas.
 
-## 💡 Qué aprendí
+## Autor
 
-- Álgebra lineal aplicada a gráficos
-- Manipulación de píxeles en Canvas
-- Transformaciones geométricas
-- Rendimiento en JavaScript
-
-## 🤝 Autor
-
-**Diego Ramirez Magaña**
-
-- 📧 dramirezmagana@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/)
-- 🐙 [GitHub](https://github.com/epinki07)
+Diego Ramirez Magana — [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/) | [GitHub](https://github.com/epinki07) | dramirezmagana@gmail.com
